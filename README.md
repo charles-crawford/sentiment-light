@@ -4,7 +4,8 @@ This is a one endpoint RESTful API app that uses a built-in model from the Pytho
 predict the sentiment of the submitted text. It is a transformer based model trained on movie and 
 product reviews that is located 
 [here](https://nlp.informatik.hu-berlin.de/resources/models/sentiment-curated-distilbert/sentiment-en-mix-distillbert.pt).
-
+The app uses the [Flask-RESTX](https://flask-restx.readthedocs.io/en/latest/) library for virtually 
+free documentation. 
 ### Run the App on AWS EC2
 1. [ssh into your AWS EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
 2. [Install Docker on your EC2](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
