@@ -23,7 +23,7 @@ After Step 1 and 2, use these commands to deploy the app:
 #### In your EC2
 Go to your AWS EC2 console and copy the public url for your EC2 instance.
 There is a curl request in `applications/test-requests.txt` you can use to check 
-if the app is up and running. Run these commands from your EC@ shell:
+if the app is up and running. Run these commands from your EC2 shell:
 
 `chmod +x application/test-requests.sh`<br>
 `./application/test-requests.sh`
