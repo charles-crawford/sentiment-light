@@ -31,7 +31,7 @@ if the app is up and running. Run these commands from your EC2 shell:
 `chmod +x application/test-requests.sh`<br>
 `./application/test-requests.sh`
 
-You should get this respsonse:
+You should get this response:
 `{"labels": [{"confidence": 0.9921161532402039, "value": "NEGATIVE"}], "text": "Some text that could be good or bad."}`
 
 ### From your local machine
