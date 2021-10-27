@@ -24,7 +24,7 @@ After Step 1 and 2, use these commands to deploy the app:
 
 ### Testing the App
 #### In your EC2
-Go to your AWS EC2 console and copy the public url for your EC2 instance.
+After starting the app, the documentation is located at `http://0.0.0.0:5001/`.
 There is a curl request in `applications/test-requests.sh` you can use to check 
 if the app is up and running. Run these commands from your EC2 shell:
 
@@ -35,6 +35,7 @@ You should get this respsonse:
 `{"labels": [{"confidence": 0.9921161532402039, "value": "NEGATIVE"}], "text": "Some text that could be good or bad."}`
 
 ### From your local machine
-After starting the app, the documentation is located at `http://{your-host-ip}:5001/`.
+Go to your AWS EC2 console and copy the public url for your EC2 instance.
+
 There is a sample curl request in `applications/test-requests.txt` that you can copy and 
 paste to your local shell to test the app.  
