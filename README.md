@@ -8,7 +8,9 @@ The app uses the [Flask-RESTX](https://flask-restx.readthedocs.io/en/latest/) li
 free documentation. The app is fully containerized with [Docker](https://www.docker.com) for ease of 
 building and starting.
 
-### Run the App on AWS EC2
+### Run the App 
+#### On AWS EC2
+If you're deploying locally just skip steps 1 and 2
 1. [ssh into your AWS EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
 2. [Install Docker on your EC2](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
 3. Clone the repo
