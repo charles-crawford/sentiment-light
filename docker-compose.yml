@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  sentiment-app:
+    container_name: sentiment-app
+    build: .
+    ports:
+      - '5001:5000'
+    restart: always
+
+networks:
+  default:
+    name: sentiment-net
