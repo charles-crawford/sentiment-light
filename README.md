@@ -5,7 +5,9 @@ predict the sentiment of the submitted text. It is a transformer based model tra
 product reviews that is located 
 [here](https://nlp.informatik.hu-berlin.de/resources/models/sentiment-curated-distilbert/sentiment-en-mix-distillbert.pt).
 The app uses the [Flask-RESTX](https://flask-restx.readthedocs.io/en/latest/) library for virtually 
-free documentation. 
+free documentation. The app is fully containerized with [Docker](https://www.docker.com) for ease of 
+building and starting.
+
 ### Run the App on AWS EC2
 1. [ssh into your AWS EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html).
 2. [Install Docker on your EC2](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html)
@@ -33,6 +35,6 @@ You should get this respsonse:
 `{"labels": [{"confidence": 0.9921161532402039, "value": "NEGATIVE"}], "text": "Some text that could be good or bad."}`
 
 ### From your local machine
-After starting the app, the documentation is located at `http://{your-host-ip}:5001/.`
+After starting the app, the documentation is located at `http://{your-host-ip}:5001/`.
 There is a sample curl request in `applications/test-requests.txt` that you can copy and 
 paste to your local shell to test the app.  
