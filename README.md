@@ -33,3 +33,5 @@ You should get this respsonse:
 
 ### From your local machine
 After starting the app, the documentation is located at `http://{your-host-ip}:5001/.`
+There is a sample curl request in `applications/test-requests.txt` that you can copy and 
+paste to your local shell to test the app.  
