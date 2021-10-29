@@ -26,7 +26,7 @@ After Step 1 and 2, use these commands to deploy the app:
 
 ### Testing the App
 #### Deployed on your local machine
-After starting the app, the documentation is located at `http://0.0.0.0:5001/`.
+After starting the app, the documentation is located at `http://0.0.0.0:5000/`.
 There is a curl request in `applications/test-requests.sh` you can use to check 
 if the app is up and running. Run these commands from your EC2 shell:
 
@@ -38,6 +38,6 @@ You should get this response:
 
 ###  Deployed on your EC2
 Go to your AWS EC2 console and copy the public ip address for your EC2 instance.
-After starting the app, the documentation is located at `http://{your-ec2-ip}:5001/`.
+After starting the app, the documentation is located at `http://{your-ec2-ip}:5000/`.
 There is a commented out sample curl request in `applications/test-requests.txt` that you can copy and 
 paste to your local shell to test the app.  
