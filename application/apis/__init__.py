@@ -1,5 +1,6 @@
 from flask_restx import Api
 from application.apis.sentiment import api as sentiment
+from application.apis.healthcheck import api as healthcheck
 
 
 api = Api(
@@ -9,3 +10,4 @@ api = Api(
 )
 
 api.add_namespace(sentiment, path='/sentiment')
+api.add_namespace(healthcheck)
