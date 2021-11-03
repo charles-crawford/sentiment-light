@@ -5,7 +5,7 @@ import logging
 # Set the logging to info to log into log file
 logging.basicConfig(format='%(asctime)s - %(message)s', level=logging.INFO)
 
-app = create_app() # add comment to test cicd
+app = create_app() # add comment to test cicd again
 
 if __name__ == "__main__":
     serve(app, host='0.0.0.0',  port=5000)
