@@ -40,4 +40,8 @@ You should get this response:
 Go to your AWS EC2 console and copy the public ip address for your EC2 instance.
 After starting the app, the documentation is located at `http://{your-ec2-ip}:5000/`.
 There is a commented out sample curl request in `applications/test-requests.txt` that you can copy and 
-paste to your local shell to test the app.  
+paste to your local shell to test the app.
+
+### Deploy to AWS Elastic Container Service 
+To deploy this service go [here](https://github.com/charles-crawford/cicd-sentiment-light-github-to-aws)
+for instructions.
