@@ -3,7 +3,7 @@ version: '3'
 services:
   sentiment-light:
     container_name: sentiment-light
-    build: ./Dockerfile-gpu
+    build: .
     ports:
       - '5001:5000'
     deploy:
