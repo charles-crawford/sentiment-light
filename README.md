@@ -23,6 +23,10 @@ After Step 1 and 2, use these commands to deploy the app:
 `cd sentiment-light`<br>
 `docker compose up -d`
 
+### Note: 
+The `Dockerfile` and `docker-compose.yml` are set up to run on a GPU enabled machine. If you don't want
+to run on one of those, then use the `Dockerfile-cpu`. You'll have to remove the `-cpu` and add `-gpu`
+to the current `Dockerfile`.
 
 ### Testing the App
 #### Deployed on your local machine
