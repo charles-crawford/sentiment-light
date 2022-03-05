@@ -3,7 +3,14 @@ version: '3'
 services:
   sentiment-light:
     container_name: sentiment-light
-    build: .
+    build: ./Dockerfile-gpu
     ports:
       - '5001:5000'
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
     restart: always
