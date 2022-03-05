@@ -1,3 +1,6 @@
+FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu18.04
+# CMD: nvidia-smi
+
 FROM python:3.6
 COPY . app/
 WORKDIR app/
