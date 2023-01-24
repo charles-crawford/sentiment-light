@@ -1,4 +1,3 @@
-FROM nvidia/cuda:11.4.1-devel-ubuntu20.04
 FROM python:3.6
 COPY . app/
 WORKDIR app/
